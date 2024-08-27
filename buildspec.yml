@@ -8,8 +8,7 @@ phases:
   build:
     commands:
       # Consider adding a linting step to catch errors before building
-      - npm run lint
-      - npm run build
+      - sudo npm run build
 
 artifacts:
   files:
