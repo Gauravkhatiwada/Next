@@ -130,7 +130,7 @@ const Header: React.FC = () => {
             />
             <div className="mt-4 px-3">
               <h1 className="text-xs font-bold sm:text-2xl primary-navy-blue">
-                GAURAVKHATIWADA@GMAIL.COM
+                GAURAVKHATIWADA11@GMAIL.COM
               </h1>
             </div>
           </div>
