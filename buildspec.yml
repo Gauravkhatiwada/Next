@@ -1,11 +1,16 @@
 version: 0.2
+
 phases:
   install:
     commands:
       - npm ci
+
   build:
     commands:
+      # Consider adding a linting step to catch errors before building
+      - npm run lint
       - npm run build
+
 artifacts:
   files:
     - '**/*'
