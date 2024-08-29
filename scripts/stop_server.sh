@@ -1,2 +1,2 @@
 #!/bin/bash
-pm2 delete server || true
+pm2 delete next || true
